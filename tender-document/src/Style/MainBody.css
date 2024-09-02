@@ -1,0 +1,144 @@
+.main-container {
+    background-color: #E8ECF7;
+
+    justify-content: center;
+    /* Centers content horizontally  #E8ECF7*/
+    align-items: center;
+    /* Centers content vertically */
+    flex-direction: column;
+    /* Aligns children elements in a column */
+   
+    /* Makes the container take up the full height of the viewport */
+    text-align: center;
+
+}
+
+.upload-font {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    cursor: pointer;
+}
+
+.temp-container {
+    height: 90vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    flex-direction: column;
+    /* Aligns children elements in a column */
+
+    /* Makes the container take up the full height of the viewport */
+    text-align: center;
+
+}
+
+.drag-and-drop-container {
+    margin: 50px;
+    padding: 40px;
+    width: 80%;
+    border-radius: 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.drag-and-drop-box {
+
+    margin: 1px 17px 10px 5px !important;
+    padding: 10px 0px 10px 20px;
+    border: 2px solid #D6D6D6;
+    border-style: dashed;
+    background-color: white;
+    height: 70vh;
+}
+
+.drag-and-drop {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    /* Adjust based on your needs */
+    text-align: center;
+}
+
+.text {
+    display: block;
+    /* Ensure the icon is treated as a block-level element */
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #626265;
+}
+
+.drag-and-drop-box2 {
+
+    margin: 1px 17px 10px 5px !important;
+    padding: 10px 0px 10px 20px;
+    border: 2px solid #D6D6D6;
+    border-style: dashed;
+    background-color: white;
+    height: auto;
+
+}
+
+.drag-and-drop2 {
+    background-color: #f9f9f9;
+
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 10px;
+
+    /* Adjust based on your needs */
+    text-align: center;
+}
+
+
+.doc-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-button {
+    margin: 30px;
+    width: max-content !important;
+    background-color: #626265;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 30px;
+    border: 3px solid #626265;
+
+}
+.main-button:hover {
+    background-color: grey; /* Darker blue on hover */
+    border: 3px solid grey;
+}
+.button:active {
+    background-color: grey;
+    border: 3px solid grey; /* Even darker blue on click */
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}

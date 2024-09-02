@@ -1,0 +1,65 @@
+.file-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    max-width: max-content; /* Adjust based on your design needs */
+}
+
+.file-icon {
+    margin-right: 10px;
+}
+
+.pdf-icon {
+    color: #6f1d1a; /* Purple color for the PDF icon */
+    font-size: 36px; /* Adjust size based on design */
+}
+
+.file-details {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.file-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.file-name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+.file-size {
+    font-size: 14px;
+    color: #888;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 5px;
+    height: 6px;
+    overflow: hidden;
+}
+
+.progress {
+    background: linear-gradient(to right, #4caf50, #2196f3);
+    height: 100%;
+    border-radius: 5px;
+}
+
+.file-remove {
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding-left: 20px;
+}
+
+.file-remove:hover {
+    color: #f00; /* Change color on hover */
+}
